@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather-App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" class="search-bar" placeholder="Search">
+            <button>
+                <a><svg class="svg-icon search-icon" aria-labelledby="title desc" role="img"
+                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7">
+                        <title id="title">Search Icon</title>
+                        <desc id="desc">A magnifying glass icon.</desc>
+                        <g class="search-path" fill="none" stroke="#848F91">
+                            <path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4" />
+                            <circle cx="8" cy="8" r="7" />
+                        </g>
+                    </svg></a>
+            </button>
+        </div>
+        <div class="weather">
+            <h2 class="city">Weather in Bengaluru</h2>
+            <h1 class="temp">51°C</h1>
+            <div class="flex">
+                <img src="https://openweathermap.org/img/wn/04n.png" alt="" class="icon">
+                <div class="description">Cloudy</div>
+            </div>
+            <div class="humidity">Humidity: 60%</div>
+            <div class="wind">Windspeed: 6.2km/h</div>
+        </div>
+    </div>
+</body>
+
+</html>
